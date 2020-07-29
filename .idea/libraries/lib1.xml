@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._intellij_forms_rt_src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._miglayout-swing-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._intellij_forms_rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._miglayout-core-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._miglayout-swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._beansbinding-doc.zip!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._beansbinding-src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._miglayout-swing-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._miglayout-core-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._beansbinding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/__MACOSX/lib/._miglayout-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

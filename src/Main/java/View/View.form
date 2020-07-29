@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.View">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="574" height="718"/>
+    </constraints>
+    <properties>
+      <background color="-13421773"/>
+      <foreground color="-3355444"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="774bc" binding="tabbedPane">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13421773"/>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="12"/>
+          <foreground color="-3355444"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="84808" binding="projectInfoTab" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Projektinfos"/>
+            </constraints>
+            <properties>
+              <background color="-13421773"/>
+              <font name="Century Gothic" size="12"/>
+              <foreground color="-1644826"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b4dc5" class="javax.swing.JLabel" binding="productUseTitelLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="546" height="16"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font name="Source Code Pro" size="12" style="2"/>
+                  <foreground color="-3355444"/>
+                  <text value="Produkteinsatz"/>
+                </properties>
+              </component>
+              <component id="746a6" class="javax.swing.JTextArea" binding="productUseTextarea">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <foreground color="-3355444"/>
+                </properties>
+              </component>
+              <component id="ad68e" class="javax.swing.JLabel" binding="environmentTitelLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="546" height="16"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font name="Source Code Pro" size="12" style="2"/>
+                  <foreground color="-3355444"/>
+                  <text value="Umgebung"/>
+                </properties>
+              </component>
+              <component id="5effd" class="javax.swing.JTextArea" binding="environmentTextarea">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <foreground color="-3355444"/>
+                </properties>
+              </component>
+              <component id="7296f" class="javax.swing.JButton" binding="saveProjectInfoButton">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font name="Century Gothic" size="12"/>
+                  <foreground color="-3355444"/>
+                  <text value="Projektinfos speichern"/>
+                </properties>
+              </component>
+              <component id="b8" class="javax.swing.JLabel" binding="targetDefinitionTitelLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="546" height="16"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font name="Source Code Pro" size="12" style="2"/>
+                  <foreground color="-3355444"/>
+                  <text value="Zielbestimmung"/>
+                </properties>
+              </component>
+              <component id="2d671" class="javax.swing.JTextArea" binding="targetDefinitionTextarea">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <foreground color="-3355444"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="91a50" binding="productFunctionsTab" layout-manager="GridLayoutManager" row-count="13" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Produktfunktionen"/>
+            </constraints>
+            <properties>
+              <background color="-13421773"/>
+              <font name="Century Gothic" size="12"/>
+              <foreground color="-11842741"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="25baf" class="javax.swing.JLabel" binding="productFunctionIDTitleLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="ID:"/>
+                </properties>
+              </component>
+              <component id="baff9" class="javax.swing.JLabel" binding="productFunctionFunctionLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="Funktion:"/>
+                </properties>
+              </component>
+              <component id="2a5d2" class="javax.swing.JLabel" binding="productFunctionSourceLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="Quelle:"/>
+                </properties>
+              </component>
+              <component id="7d46a" class="javax.swing.JLabel" binding="productFunctionReferenceLabel">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="Verweise:"/>
+                </properties>
+              </component>
+              <component id="e95ca" class="javax.swing.JLabel" binding="productFunctionProtagonistLabel">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="Akteur:"/>
+                </properties>
+              </component>
+              <component id="add7f" class="javax.swing.JLabel" binding="productFunctionDescriptionLabel">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="Beschreibung:"/>
+                </properties>
+              </component>
+              <component id="17b04" class="javax.swing.JTextField" binding="productFunctionFunctionField">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <caretColor color="-1644826"/>
+                  <disabledTextColor color="-11842741"/>
+                  <font name="Source Code Pro" size="12"/>
+                  <foreground color="-1644826"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="a177a" class="javax.swing.JTextField" binding="productFunctionSourceField">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <caretColor color="-1644826"/>
+                  <disabledTextColor color="-11842741"/>
+                  <font name="Source Code Pro" size="12"/>
+                  <foreground color="-1644826"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                </properties>
+              </component>
+              <component id="cd498" class="javax.swing.JTextField" binding="productFunctionReferenceField">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <caretColor color="-1644826"/>
+                  <disabledTextColor color="-11842741"/>
+                  <font name="Source Code Pro" size="12"/>
+                  <foreground color="-1644826"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                </properties>
+              </component>
+              <component id="79eab" class="javax.swing.JTextField" binding="productFunctionProtagonistField">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <caretColor color="-1644826"/>
+                  <disabledTextColor color="-11842741"/>
+                  <font name="Source Code Pro" size="12"/>
+                  <foreground color="-1644826"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                </properties>
+              </component>
+              <component id="e0de7" class="javax.swing.JButton" binding="saveProductFunctionButton">
+                <constraints>
+                  <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font name="Century Gothic" size="12"/>
+                  <foreground color="-1644826"/>
+                  <text value="Speichern"/>
+                </properties>
+              </component>
+              <component id="8c2d0" class="javax.swing.JButton" binding="deleteProductFunctionButton">
+                <constraints>
+                  <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font name="Century Gothic" size="12"/>
+                  <foreground color="-1644826"/>
+                  <text value="Löschen"/>
+                </properties>
+              </component>
+              <component id="89a19" class="javax.swing.JButton" binding="newProductFunctionButton">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="151" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font name="Century Gothic" size="12"/>
+                  <foreground color="-1644826"/>
+                  <text value="Neu"/>
+                </properties>
+              </component>
+              <scrollpane id="51465" binding="productFunctionTableScrollPane">
+                <constraints>
+                  <grid row="0" column="0" row-span="12" col-span="1" vsize-policy="7" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="50" height="418"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-11842741"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="fe7ba" class="javax.swing.JTable" binding="productFunctionTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-13421773"/>
+                      <foreground color="-4473925"/>
+                      <gridColor color="-10066330"/>
+                      <selectionBackground color="-13421773"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="a0553" class="javax.swing.JLabel" binding="productFunctionIDLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <hspacer id="d73d0">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="192" height="11"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <component id="701f1" class="javax.swing.JButton" binding="changeProductFunctionIDButton">
+                <constraints>
+                  <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="192" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font name="Century Gothic" size="12"/>
+                  <foreground color="-1644826"/>
+                  <text value="ID ändern"/>
+                </properties>
+              </component>
+              <component id="65120" class="javax.swing.JTextArea" binding="productFunctionDescriptionField">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <caretColor color="-1644826"/>
+                  <disabledTextColor color="-11842741"/>
+                  <font name="Source Code Pro" size="12"/>
+                  <foreground color="-1644826"/>
+                  <margin top="0" left="0" bottom="0" right="1"/>
+                </properties>
+              </component>
+              <component id="9978" class="javax.swing.JLabel" binding="productFunctionComplexityTitleLabel">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="Gewichtung:"/>
+                </properties>
+              </component>
+              <component id="377cc" class="javax.swing.JLabel" binding="productFunctionCategoryTitleLabel">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="Kategorie:"/>
+                </properties>
+              </component>
+              <component id="8499f" class="javax.swing.JLabel" binding="productFunctionDETTitleLabel">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="DET:"/>
+                </properties>
+              </component>
+              <component id="8d59a" class="javax.swing.JLabel" binding="productFunctionFTRTitleLabel">
+                <constraints>
+                  <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <foreground color="-1644826"/>
+                  <text value="FTR:"/>
+                </properties>
+              </component>
+              <component id="af64b" class="javax.swing.JSpinner" binding="productFunctionWeightingComboBox">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <doubleBuffered value="false"/>
+                  <font name="Source Code Pro" size="12"/>
+                  <foreground color="-4473925"/>
+                  <inheritsPopupMenu value="true"/>
+                </properties>
+              </component>
+              <component id="c50f1" class="javax.swing.JComboBox" binding="productFunctionCategoryComboBox">
+                <constraints>
+                  <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <foreground color="-1644826"/>
+                </properties>
+              </component>
+              <component id="e294b" class="javax.swing.JSpinner" binding="productFunctionDETSpinner">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <font name="Source Code Pro" size="12"/>
+                  <foreground color="-1644826"/>
+                </properties>
+              </component>
+              <component id="7fdb9" class="javax.swing.JSpinner" binding="productFunctionFTRSpinner">
+                <constraints>
+                  <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <font name="Source Code Pro" size="12"/>
+                  <foreground color="-1644826"/>
+                </properties>
+              </component>
+              <component id="be54f" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c2ef0" class="javax.swing.JLabel" binding="productFunctionFunctionPointLabel">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font style="1"/>
+                  <foreground color="-1644826"/>
+                  <text value="Function Point:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2c4fe" binding="productDataTab" layout-manager="GridLayoutManager" row-count="19" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Produktdaten"/>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <font name="Century Gothic" size="12"/>
+              <foreground color="-1644826"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="29904" class="javax.swing.JLabel" binding="productDataIDTitleLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="ID:"/>
+                </properties>
+              </component>
+              <component id="d3f78" class="javax.swing.JLabel" binding="productDataMemoryContentTitleLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Speicherinhalt:"/>
+                </properties>
+              </component>
+              <component id="bf62e" class="javax.swing.JLabel" binding="productDataReferenceTitleLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Verweise:"/>
+                </properties>
+              </component>
+              <component id="1ed9" class="javax.swing.JLabel" binding="productDataAttributeTitleLabel">
+                <constraints>
+                  <grid row="10" column="2" row-span="8" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font style="1"/>
+                  <text value="Attribute:"/>
+                </properties>
+              </component>
+              <component id="4487f" class="javax.swing.JButton" binding="saveProductDataButton">
+                <constraints>
+                  <grid row="18" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Speichern"/>
+                </properties>
+              </component>
+              <component id="2344d" class="javax.swing.JTextField" binding="productDataMemoryContentField">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                </properties>
+              </component>
+              <component id="28382" class="javax.swing.JTextField" binding="productDataReferenceField">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                </properties>
+              </component>
+              <component id="7df5d" class="javax.swing.JButton" binding="deleteProductDataButton">
+                <constraints>
+                  <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Löschen"/>
+                </properties>
+              </component>
+              <component id="1c09" class="javax.swing.JButton" binding="newProductDataButton">
+                <constraints>
+                  <grid row="18" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Neu"/>
+                </properties>
+              </component>
+              <component id="41577" class="javax.swing.JLabel" binding="productDataIDLabel">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <scrollpane id="f4e61" binding="productDataTableScrollPane">
+                <constraints>
+                  <grid row="0" column="0" row-span="18" col-span="1" vsize-policy="7" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d39b4" class="javax.swing.JTable" binding="productDataTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-13421773"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="ec94e" binding="productDataAttributeTableScrollPane">
+                <constraints>
+                  <grid row="10" column="3" row-span="8" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="50" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e9d55" class="javax.swing.JTable" binding="productDataAttributeTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-13421773"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="17f2c" class="javax.swing.JLabel" binding="productDataAttributeNameTitleLabel">
+                <constraints>
+                  <grid row="14" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Name:"/>
+                </properties>
+              </component>
+              <component id="5e9d4" class="javax.swing.JLabel" binding="productDataAttributeContentTitleLabel">
+                <constraints>
+                  <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Inhalt:"/>
+                </properties>
+              </component>
+              <component id="e62d9" class="javax.swing.JTextField" binding="productDataAttributeContentLabel">
+                <constraints>
+                  <grid row="17" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                </properties>
+              </component>
+              <component id="99ea0" class="javax.swing.JButton" binding="changeProductDataIDButton">
+                <constraints>
+                  <grid row="18" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="ID ändern"/>
+                </properties>
+              </component>
+              <hspacer id="634c9">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="51f1a" class="javax.swing.JLabel" binding="productDataAttributeNameLabel">
+                <constraints>
+                  <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+              <component id="1d8d6" class="javax.swing.JButton" binding="newProductDataAttributeButton">
+                <constraints>
+                  <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Neues Attribut"/>
+                </properties>
+              </component>
+              <component id="d23ab" class="javax.swing.JButton" binding="deleteProductDataAttributeButton">
+                <constraints>
+                  <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Attribut löschen"/>
+                </properties>
+              </component>
+              <component id="1fcec" class="javax.swing.JButton" binding="saveProductDataAttributeButton">
+                <constraints>
+                  <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Attribut speichern"/>
+                </properties>
+              </component>
+              <component id="ffb99" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="10" column="1" row-span="8" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="5" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <orientation value="1"/>
+                </properties>
+              </component>
+              <component id="f7c73" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <font style="2"/>
+                  <foreground color="-3355444"/>
+                  <text value="Attribute müssen explizit gesichert werden!"/>
+                </properties>
+              </component>
+              <component id="dd8cd" class="javax.swing.JLabel" binding="productDataWeightingTitleLabel">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Gewichtung:"/>
+                </properties>
+              </component>
+              <component id="3bb0a" class="javax.swing.JLabel" binding="productDataDETTitleLabel">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="DET:"/>
+                </properties>
+              </component>
+              <component id="b2ad8" class="javax.swing.JLabel" binding="productDataFTRTitleLabel">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="FTR:"/>
+                </properties>
+              </component>
+              <component id="1da4" class="javax.swing.JSpinner" binding="productDataWeightingSpinner">
+                <constraints>
+                  <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <foreground color="-4473925"/>
+                </properties>
+              </component>
+              <component id="c9742" class="javax.swing.JSpinner" binding="productDataDETSpinner">
+                <constraints>
+                  <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                </properties>
+              </component>
+              <component id="d4643" class="javax.swing.JSpinner" binding="productDataFTRSpinner">
+                <constraints>
+                  <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                </properties>
+              </component>
+              <component id="bf7d9" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="84169" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <font style="1"/>
+                  <foreground color="-3355444"/>
+                  <horizontalTextPosition value="11"/>
+                  <inheritsPopupMenu value="true"/>
+                  <text value="Function Point"/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="c93cb" class="javax.swing.JSeparator">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="59666" class="javax.swing.JLabel" binding="productDataCategoryTitleLabel">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                  <text value="Kategorie:"/>
+                </properties>
+              </component>
+              <component id="ae2a8" class="javax.swing.JComboBox" binding="productDataCategoryComboBox">
+                <constraints>
+                  <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10066330"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="643b5" binding="estimationTab" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Aufwandsabschätzung"/>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <font name="Century Gothic" size="12"/>
+              <foreground color="-1644826"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="d7ae2" binding="estimationPane">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="1188" binding="e1Overview" layout-manager="GridLayoutManager" row-count="23" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Übersicht E1"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13421773"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="26cb5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <font style="1"/>
+                          <foreground color="-3355444"/>
+                          <text value="Kategorie"/>
+                        </properties>
+                      </component>
+                      <component id="9a3b2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <font style="1"/>
+                          <foreground color="-3355444"/>
+                          <text value="Anzahl"/>
+                        </properties>
+                      </component>
+                      <component id="596cb" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <font style="1"/>
+                          <foreground color="-3355444"/>
+                          <text value="Gewichtung"/>
+                        </properties>
+                      </component>
+                      <component id="de612" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <font style="1"/>
+                          <foreground color="-3355444"/>
+                          <text value="Zeilensumme"/>
+                        </properties>
+                      </component>
+                      <component id="c8da0" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Eingaben"/>
+                        </properties>
+                      </component>
+                      <component id="d9517" class="javax.swing.JLabel" binding="estimationInputEasyNumber">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="111e4" class="javax.swing.JLabel" binding="estimationInputMiddleNumber">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="d0d32" class="javax.swing.JLabel" binding="estimationInputComplexNumber">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="a407d" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Einfach (&lt;4)"/>
+                        </properties>
+                      </component>
+                      <component id="2970e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Mittel (=4)"/>
+                        </properties>
+                      </component>
+                      <component id="5f6d0" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Komplex (&gt;4)"/>
+                        </properties>
+                      </component>
+                      <component id="59084" class="javax.swing.JLabel" binding="estimationInputEasySum">
+                        <constraints>
+                          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="5f060" class="javax.swing.JLabel" binding="estimationInputMiddleSum">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="95b31" class="javax.swing.JLabel" binding="estimationInputComplexSum">
+                        <constraints>
+                          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="62bab" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Ausgaben"/>
+                        </properties>
+                      </component>
+                      <component id="150" class="javax.swing.JLabel" binding="estimationOutputEasyNumber">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="6" height="23"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="98fe4" class="javax.swing.JLabel" binding="estimationOutputMiddleNumber">
+                        <constraints>
+                          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="13848" class="javax.swing.JLabel" binding="estimationOutputComplexNumber">
+                        <constraints>
+                          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="f57ff" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="76" height="23"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Einfach (&lt;5)"/>
+                        </properties>
+                      </component>
+                      <component id="17f8d" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Mittel (=5)"/>
+                        </properties>
+                      </component>
+                      <component id="aced" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Komplex (&gt;5)"/>
+                        </properties>
+                      </component>
+                      <component id="4732e" class="javax.swing.JLabel" binding="estimationOutputEasySum">
+                        <constraints>
+                          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="6" height="23"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="11c9a" class="javax.swing.JLabel" binding="estimationOutputMiddleSum">
+                        <constraints>
+                          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="1baad" class="javax.swing.JLabel" binding="estimationOutputComplexSum">
+                        <constraints>
+                          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="25a68" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Abfragen"/>
+                        </properties>
+                      </component>
+                      <component id="b6e93" class="javax.swing.JLabel" binding="estimationQueryEasyNumber">
+                        <constraints>
+                          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="e751e" class="javax.swing.JLabel" binding="estimationQueryMiddleNumber">
+                        <constraints>
+                          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="74abd" class="javax.swing.JLabel" binding="estimationQueryComplexNumber">
+                        <constraints>
+                          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="230e8" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Einfach (&lt;4)"/>
+                        </properties>
+                      </component>
+                      <component id="ba654" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Mittel (=4)"/>
+                        </properties>
+                      </component>
+                      <component id="e4f27" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Komplex (&gt;4)"/>
+                        </properties>
+                      </component>
+                      <component id="8b873" class="javax.swing.JLabel" binding="estimationQueryEasySum">
+                        <constraints>
+                          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="99f46" class="javax.swing.JLabel" binding="estimationQueryMiddleSum">
+                        <constraints>
+                          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="c2a0a" class="javax.swing.JLabel" binding="estimationQueryComplexSum">
+                        <constraints>
+                          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="7707a" class="javax.swing.JSeparator">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                        </properties>
+                      </component>
+                      <component id="663df" class="javax.swing.JSeparator">
+                        <constraints>
+                          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                        </properties>
+                      </component>
+                      <component id="fa292" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="13" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Interne Datenbestände"/>
+                        </properties>
+                      </component>
+                      <component id="ab2eb" class="javax.swing.JLabel" binding="estimationInternEasyNumber">
+                        <constraints>
+                          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="797ea" class="javax.swing.JLabel" binding="estimationInternMiddleNumber">
+                        <constraints>
+                          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="479d5" class="javax.swing.JLabel" binding="estimationInternComplexNumber">
+                        <constraints>
+                          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="ca302" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Einfach (&lt;10)"/>
+                        </properties>
+                      </component>
+                      <component id="bb366" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Mittel (=10)"/>
+                        </properties>
+                      </component>
+                      <component id="779cc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Komplex (&gt;10)"/>
+                        </properties>
+                      </component>
+                      <component id="b5281" class="javax.swing.JLabel" binding="estimationInternEasySum">
+                        <constraints>
+                          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="4e243" class="javax.swing.JLabel" binding="estimationInternMiddleSum">
+                        <constraints>
+                          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="9bf2e" class="javax.swing.JLabel" binding="estimationInternComplexSum">
+                        <constraints>
+                          <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="7400f" class="javax.swing.JSeparator">
+                        <constraints>
+                          <grid row="12" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                        </properties>
+                      </component>
+                      <component id="cafc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="17" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Externe Datenbestände"/>
+                        </properties>
+                      </component>
+                      <component id="f1b9e" class="javax.swing.JLabel" binding="estimationExternEasyNumber">
+                        <constraints>
+                          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="dadc9" class="javax.swing.JLabel" binding="estimationExternMiddleNumber">
+                        <constraints>
+                          <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="1a4e5" class="javax.swing.JLabel" binding="estimationExternComplexNumber">
+                        <constraints>
+                          <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="32be5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Einfach (&lt;7)"/>
+                        </properties>
+                      </component>
+                      <component id="3eaca" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Mittel (=7)"/>
+                        </properties>
+                      </component>
+                      <component id="67be5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="19" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="Komplex (&gt;7)"/>
+                        </properties>
+                      </component>
+                      <component id="b13c5" class="javax.swing.JLabel" binding="estimationExternEasySum">
+                        <constraints>
+                          <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="25e" class="javax.swing.JLabel" binding="estimationExternMiddleSum">
+                        <constraints>
+                          <grid row="18" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="f9ac3" class="javax.swing.JLabel" binding="estimationExternComplexSum">
+                        <constraints>
+                          <grid row="19" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="a88ad" class="javax.swing.JSeparator">
+                        <constraints>
+                          <grid row="16" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                        </properties>
+                      </component>
+                      <component id="9ec7b" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="21" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <font style="1"/>
+                          <foreground color="-3355444"/>
+                          <text value="Summe"/>
+                        </properties>
+                      </component>
+                      <component id="85c21" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="21" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="E1="/>
+                        </properties>
+                      </component>
+                      <component id="10fa2" class="javax.swing.JLabel" binding="estimationE1Sum">
+                        <constraints>
+                          <grid row="21" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                      <component id="48912" class="javax.swing.JSeparator">
+                        <constraints>
+                          <grid row="20" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="67531" binding="estimationFactors" layout-manager="GridLayoutManager" row-count="14" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Faktoren"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13421773"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="a342" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="[1] Verflechtung"/>
+                        </properties>
+                      </component>
+                      <component id="b7e68" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="[2] Dezentralisierung"/>
+                        </properties>
+                      </component>
+                      <component id="f461c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="[3] Transatkionsrate"/>
+                        </properties>
+                      </component>
+                      <component id="4faf9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="  a) Rechenoperationen"/>
+                        </properties>
+                      </component>
+                      <component id="22e3a" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="  b) Kontrollverfahren"/>
+                        </properties>
+                      </component>
+                      <component id="9b166" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="  c) Ausnahmeregelungen"/>
+                        </properties>
+                      </component>
+                      <component id="fa424" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="  d) Logik"/>
+                        </properties>
+                      </component>
+                      <component id="aaeea" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="[5] Wiederverwendbarkeit"/>
+                        </properties>
+                      </component>
+                      <component id="d2b57" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="[6] Datenbestandskonvertierung"/>
+                        </properties>
+                      </component>
+                      <component id="a5263" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="[7] Anpassbarkeit"/>
+                        </properties>
+                      </component>
+                      <component id="1a61d" class="javax.swing.JLabel" binding="factor1">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="2ae5c" class="javax.swing.JLabel" binding="factor2">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="a0f7e" class="javax.swing.JLabel" binding="factor3">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="1aa78" class="javax.swing.JLabel" binding="factor4a">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="cae95" class="javax.swing.JLabel" binding="factor4b">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="747f7" class="javax.swing.JLabel" binding="factor4c">
+                        <constraints>
+                          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="f832" class="javax.swing.JLabel" binding="factor4d">
+                        <constraints>
+                          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="37b30" class="javax.swing.JLabel" binding="factor5">
+                        <constraints>
+                          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="6c824" class="javax.swing.JLabel" binding="factor6">
+                        <constraints>
+                          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="e1173" class="javax.swing.JLabel" binding="factor7">
+                        <constraints>
+                          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="cbb9" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="[4] Verarbeitungslogik"/>
+                        </properties>
+                      </component>
+                      <component id="3ff84" class="javax.swing.JSlider" binding="factor1Slider">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="5"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="90526" class="javax.swing.JSlider" binding="factor2Slider">
+                        <constraints>
+                          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="5"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="77018" class="javax.swing.JSlider" binding="factor3Slider">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="5"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="ed984" class="javax.swing.JSlider" binding="factor4aSlider">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="10"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="129e" class="javax.swing.JSlider" binding="factor4bSlider">
+                        <constraints>
+                          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="5"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="b5c5d" class="javax.swing.JSlider" binding="factor4cSlider">
+                        <constraints>
+                          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="10"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="852c7" class="javax.swing.JSlider" binding="factor4dSlider">
+                        <constraints>
+                          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="5"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="681e7" class="javax.swing.JSlider" binding="factor5Slider">
+                        <constraints>
+                          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="5"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="ee7c0" class="javax.swing.JSlider" binding="factor6Slider">
+                        <constraints>
+                          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="5"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="409ec" class="javax.swing.JSlider" binding="factor7Slider">
+                        <constraints>
+                          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <maximum value="5"/>
+                          <paintTicks value="false"/>
+                          <snapToTicks value="true"/>
+                          <value value="0"/>
+                        </properties>
+                      </component>
+                      <component id="42b25" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="Summe der Einflüsse"/>
+                        </properties>
+                      </component>
+                      <component id="ad5db" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="Faktor der Einflussbewertung"/>
+                        </properties>
+                      </component>
+                      <component id="3fd90" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="Bewertete Function Points"/>
+                        </properties>
+                      </component>
+                      <component id="e3bf8" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="E2 ="/>
+                        </properties>
+                      </component>
+                      <component id="ce42d" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="E3 = E2/100+0,7 ="/>
+                        </properties>
+                      </component>
+                      <component id="3e422" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="E1 * E3 ="/>
+                        </properties>
+                      </component>
+                      <component id="f8d40" class="javax.swing.JLabel" binding="factorE2Sum">
+                        <constraints>
+                          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="25836" class="javax.swing.JLabel" binding="factorE3">
+                        <constraints>
+                          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="2cde6" class="javax.swing.JLabel" binding="functionPointResult">
+                        <constraints>
+                          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <enabled value="true"/>
+                          <focusable value="false"/>
+                          <foreground color="-3355444"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="cd78a" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Ergebnis"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13421773"/>
+                      <foreground color="-3355444"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="81281" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="aaba2" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <font style="1"/>
+                              <foreground color="-3355444"/>
+                              <text value="Personenmonate nach Jones"/>
+                            </properties>
+                          </component>
+                          <vspacer id="e04de">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                          </vspacer>
+                          <component id="c864d" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="231" height="16"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="Entwicklungsdauer in Monaten:"/>
+                            </properties>
+                          </component>
+                          <component id="360e3" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="231" height="16"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="Personen:"/>
+                            </properties>
+                          </component>
+                          <component id="36a33" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="231" height="16"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <font style="1"/>
+                              <foreground color="-3355444"/>
+                              <text value="Aufwand (Personenmonate)"/>
+                            </properties>
+                          </component>
+                          <component id="a5780" class="javax.swing.JLabel" binding="jonesEstimationDurationLabel">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="AFP^(0.4) = 0"/>
+                            </properties>
+                          </component>
+                          <component id="d3a15" class="javax.swing.JLabel" binding="jonesEstimationPersonsLabel">
+                            <constraints>
+                              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="AFP / 150 -&gt; 0"/>
+                            </properties>
+                          </component>
+                          <component id="d8416" class="javax.swing.JLabel" binding="jonesEstimationPersonMonthsLabel">
+                            <constraints>
+                              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <font style="1"/>
+                              <foreground color="-3355444"/>
+                              <text value="0 * 0 = 0"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="1e91c" class="javax.swing.JSeparator">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                        </properties>
+                      </component>
+                      <grid id="d4b1d" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-13421773"/>
+                          <foreground color="-3355444"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="93244" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <font style="1"/>
+                              <foreground color="-3355444"/>
+                              <text value="Korrekturfaktor"/>
+                            </properties>
+                          </component>
+                          <component id="f7ab6" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="Aktueller Korrekturfaktor:"/>
+                            </properties>
+                          </component>
+                          <component id="589c7" class="javax.swing.JLabel" binding="correctionFactorLabel">
+                            <constraints>
+                              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="1"/>
+                            </properties>
+                          </component>
+                          <component id="1f18c" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="Korrigierter Aufwand:"/>
+                            </properties>
+                          </component>
+                          <component id="1ccb" class="javax.swing.JLabel" binding="correctionCalculationLabel">
+                            <constraints>
+                              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="0 * e ^ 1 = 0"/>
+                            </properties>
+                          </component>
+                          <component id="64bef" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="SOLL-Aufwand:"/>
+                            </properties>
+                          </component>
+                          <component id="faef2" class="javax.swing.JLabel" binding="correctionSetpointLabel">
+                            <constraints>
+                              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="0 Mannmonate"/>
+                            </properties>
+                          </component>
+                          <component id="c29ae" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="IST-Aufwand:"/>
+                            </properties>
+                          </component>
+                          <component id="ac4b1" class="javax.swing.JSpinner" binding="correctionActualValueSpinner">
+                            <constraints>
+                              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-10066330"/>
+                              <foreground color="-3355444"/>
+                            </properties>
+                          </component>
+                          <component id="7e902" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="Mannmonate"/>
+                            </properties>
+                          </component>
+                          <component id="6438a" class="javax.swing.JButton" binding="newCorrectionFactorButton">
+                            <constraints>
+                              <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-13421773"/>
+                              <foreground color="-3355444"/>
+                              <text value="Neuen Korrekturfaktor berechnen"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+              <component id="ba608" class="javax.swing.JButton" binding="refreshEstimationViewButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13421773"/>
+                  <text value="Werte neu berechnen"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <grid id="13ed9" binding="xmlPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13421773"/>
+          <foreground color="-12829636"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f8a99" class="javax.swing.JButton" binding="exportXMLButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13421773"/>
+              <font name="Century Gothic" size="12"/>
+              <foreground color="-1644826"/>
+              <text value="XML exportieren..."/>
+            </properties>
+          </component>
+          <component id="4f5e9" class="javax.swing.JButton" binding="importXMLButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13421773"/>
+              <font name="Century Gothic" size="12"/>
+              <foreground color="-1644826"/>
+              <text value="XML importieren..."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

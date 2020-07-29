@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="724.0" y="733.0">com</node>
+    <node x="671.0" y="636.0">images</node>
+    <node x="261.0" y="636.0">netscape</node>
+    <node x="189.0" y="733.0">junit</node>
+    <node x="0.0" y="830.0">org</node>
+    <node x="347.0" y="503.0">toolbarButtonGraphics</node>
+    <node x="99.09774436090223" y="244.0">Controller</node>
+    <node x="141.2518796992481" y="122.0">View</node>
+    <node x="165.0" y="830.0">sun</node>
+    <node x="466.0" y="636.0">META-INF</node>
+    <node x="330.0" y="830.0">jdk</node>
+    <node x="0.0" y="636.0">groovyjarjarasm</node>
+    <node x="551.0" y="733.0">java</node>
+    <node x="0.0" y="733.0">groovy</node>
+    <node x="15.369674185463623" y="406.0">Test</node>
+    <node x="370.0" y="733.0">javax</node>
+    <node x="495.0" y="830.0">XML</node>
+    <node x="84.0018796992481" y="0.0">Model</node>
+    <node x="30.0" y="503.0">groovyjarjarcommonscli</node>
+    <node x="228.88283208020047" y="406.0">Main</node>
+    <node x="441.8828320802005" y="12.034505208333329">groovyjarjarantlr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Controller" target="Model">
+      <point x="-73.33333333333329" y="-26.0" />
+      <point x="113.76441102756894" y="204.0" />
+      <point x="119.7518796992481" y="204.0" />
+      <point x="119.7518796992481" y="92.0" />
+      <point x="126.5018796992481" y="92.0" />
+      <point x="-25.5" y="26.0" />
+    </edge>
+    <edge source="Controller" target="Controller">
+      <point x="-75.42857142857143" y="26.0" />
+      <point x="111.6691729323308" y="316.0" />
+      <point x="79.09774436090223" y="316.0" />
+      <point x="79.09774436090223" y="287.33333333333337" />
+      <point x="-88.0" y="17.333333333333343" />
+    </edge>
+    <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+      <point x="-77.33333333333333" y="26.0" />
+      <point x="480.5494987468672" y="84.03450520833333" />
+      <point x="421.8828320802005" y="84.03450520833333" />
+      <point x="421.8828320802005" y="55.36783854166666" />
+      <point x="-116.0" y="17.333333333333332" />
+    </edge>
+    <edge source="Controller" target="View">
+      <point x="-14.666666666666657" y="-26.0" />
+      <point x="172.43107769423557" y="224.0" />
+      <point x="181.2518796992481" y="224.0" />
+      <point x="-24.0" y="26.0" />
+    </edge>
+    <edge source="View" target="Controller">
+      <point x="24.0" y="26.0" />
+      <point x="229.2518796992481" y="214.0" />
+      <point x="260.43107769423557" y="214.0" />
+      <point x="73.33333333333331" y="-26.0" />
+    </edge>
+    <edge source="Test" target="View">
+      <point x="10.666666666666686" y="-26.0" />
+      <point x="90.03634085213031" y="356.0" />
+      <point x="48.597744360902226" y="356.0" />
+      <point x="48.597744360902226" y="224.0" />
+      <point x="165.2518796992481" y="224.0" />
+      <point x="-40.0" y="26.0" />
+    </edge>
+    <edge source="Main" target="Model">
+      <point x="32.0" y="-26.0" />
+      <point x="324.8828320802005" y="386.0" />
+      <point x="322.4899749373433" y="386.0" />
+      <point x="322.4899749373433" y="82.0" />
+      <point x="194.5018796992481" y="82.0" />
+      <point x="42.5" y="26.0" />
+    </edge>
+    <edge source="Test" target="Controller">
+      <point x="32.0" y="-26.0" />
+      <point x="111.36967418546362" y="376.0" />
+      <point x="187.09774436090223" y="376.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Test" target="Model">
+      <point x="-32.0" y="-26.0" />
+      <point x="47.36967418546362" y="376.0" />
+      <point x="26.0" y="376.0" />
+      <point x="26.0" y="102.0" />
+      <point x="109.5018796992481" y="102.0" />
+      <point x="-42.5" y="26.0" />
+    </edge>
+    <edge source="Main" target="Controller">
+      <point x="-53.333333333333314" y="-26.0" />
+      <point x="239.54949874686716" y="386.0" />
+      <point x="237.38345864661653" y="386.0" />
+      <point x="50.285714285714306" y="26.0" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+      <point x="68.0" y="26.0" />
+      <point x="234.0" y="585.0" />
+      <point x="0.0" y="585.0" />
+      <point x="0.0" y="516.0" />
+      <point x="-136.0" y="-13.0" />
+    </edge>
+    <edge source="View" target="Model">
+      <point x="-32.0" y="-26.0" />
+      <point x="173.2518796992481" y="102.0" />
+      <point x="160.5018796992481" y="102.0" />
+      <point x="8.5" y="26.0" />
+    </edge>
+    <edge source="Main" target="View">
+      <point x="10.666666666666686" y="-26.0" />
+      <point x="303.54949874686713" y="386.0" />
+      <point x="311.4899749373433" y="386.0" />
+      <point x="311.4899749373433" y="194.0" />
+      <point x="261.2518796992481" y="194.0" />
+      <point x="56.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6674057649667405" x="422.0" y="441.00000000000006" />
+  <SelectedNodes>
+    <node>com</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,49 @@
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <element name="content">
+
+        <element name="Projektinfos">
+            <element name="zielbestimmung" type="xs:string"/>
+            <element name="produkteinsatz" type="xs:string"/>
+            <element name="umgebung" type="xs:string"/>
+        </element>
+
+        <element name="Produktfunktionen">
+            <sequence>
+                <element name="PF_ID" type="ID" maxOccurs="unbonded" minOccurs="1">
+                    <attribute name="ID" type="xs:integer"/>
+                    <element name="funktion" type="xs:string"/>
+                    <element name="quelle" type="xs:string"/>
+                    <element name="verweis" type="xs:string"/>
+                    <element name="akteuer" type="xs:string"/>
+                    <element name="beschreibung" type="xs:string"/>
+                    <element name="functionpoint">
+                        <element name="gewichtung" type="xs:string"/>
+                        <element name="kategorie" type="xs:string"/>
+                        <element name="DET" type="xs:integer"/>
+                        <element name="FTR" type="xs:integer"/>
+                    </element>
+                </element>
+            </sequence>
+        </element>
+
+        <element name="Produktdaten">
+            <sequence>
+                <element name="PD_ID" type="ID" maxOccurs="unbonded" minOccurs="1">
+                    <attribute name="ID" type="xs:integer"/>
+                    <element name="speicherinhalt" type="xs:string"/>
+                    <element name="verweis" type="xs:string"/>
+                    <element name="functionpoint">
+                        <element name="gewichtung" type="xs:string"/>
+                        <element name="kategorie" type="xs:string"/>
+                        <element name="DET" type="xs:integer"/>
+                        <element name="FTR" type="xs:integer"/>
+                    </element>
+                    <element name="attribute">
+                        <element name="name" type="xs:string"/>
+                        <element name="inhalt" type="xs:string"/>
+                    </element>
+                </element>
+            </sequence>
+        </element>
+    </element>
+</schema>

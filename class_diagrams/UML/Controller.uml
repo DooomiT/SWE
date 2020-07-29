@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Controller</OriginalElement>
+  <nodes>
+    <node x="560.3833333333334" y="0.0">Controller.ProductDataController</node>
+    <node x="149.38333333333338" y="66.0">Controller.ProductFunctionController</node>
+    <node x="0.0" y="607.0">Controller.ProjectInfoController</node>
+    <node x="433.3833333333334" y="464.0">Controller.EstimationController</node>
+    <node x="177.66666666666669" y="1052.0">Controller.Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Controller.Controller" target="Controller.EstimationController">
+      <point x="27.07499999999999" y="-124.0" />
+      <point x="385.2416666666667" y="952.0" />
+      <point x="503.58333333333337" y="952.0" />
+      <point x="-46.80000000000001" y="224.0" />
+    </edge>
+    <edge source="Controller.EstimationController" target="Controller.ProductDataController">
+      <point x="58.5" y="-224.0" />
+      <point x="608.8833333333333" y="444.0" />
+      <point x="592.9666666666667" y="444.0" />
+      <point x="-162.91666666666669" y="202.0" />
+    </edge>
+    <edge source="Controller.Controller" target="Controller.ProductFunctionController">
+      <point x="-81.22500000000008" y="-124.0" />
+      <point x="276.9416666666666" y="1002.0" />
+      <point x="307.5" y="1002.0" />
+      <point x="307.5" y="444.0" />
+      <point x="181.9666666666667" y="444.0" />
+      <point x="-162.91666666666669" y="136.0" />
+    </edge>
+    <edge source="Controller.EstimationController" target="Controller.ProductFunctionController">
+      <point x="-58.5" y="-224.0" />
+      <point x="491.8833333333334" y="444.0" />
+      <point x="507.80000000000007" y="444.0" />
+      <point x="162.91666666666669" y="136.0" />
+    </edge>
+    <edge source="Controller.Controller" target="Controller.ProductDataController">
+      <point x="153.425" y="-124.0" />
+      <point x="511.5916666666667" y="1022.0" />
+      <point x="791.1" y="1022.0" />
+      <point x="791.1" y="434.0" />
+      <point x="853.6333333333334" y="434.0" />
+      <point x="97.75" y="202.0" />
+    </edge>
+    <edge source="Controller.ProductDataController" target="Controller.Controller">
+      <point x="32.583333333333314" y="202.0" />
+      <point x="788.4666666666667" y="424.0" />
+      <point x="780.1" y="424.0" />
+      <point x="780.1" y="1012.0" />
+      <point x="493.5416666666667" y="1012.0" />
+      <point x="135.375" y="-124.0" />
+    </edge>
+    <edge source="Controller.ProjectInfoController" target="Controller.Controller">
+      <point x="118.80000000000001" y="81.0" />
+      <point x="267.3" y="1032.0" />
+      <point x="258.8916666666666" y="1032.0" />
+      <point x="-99.27500000000009" y="-124.0" />
+    </edge>
+    <edge source="Controller.ProductFunctionController" target="Controller.Controller">
+      <point x="-32.583333333333314" y="136.0" />
+      <point x="312.30000000000007" y="424.0" />
+      <point x="329.5" y="424.0" />
+      <point x="329.5" y="1022.0" />
+      <point x="313.04166666666663" y="1022.0" />
+      <point x="-45.12500000000006" y="-124.0" />
+    </edge>
+    <edge source="Controller.Controller" target="Controller.ProjectInfoController">
+      <point x="-153.42500000000013" y="-124.0" />
+      <point x="204.74166666666656" y="1022.0" />
+      <point x="89.10000000000002" y="1022.0" />
+      <point x="-59.39999999999999" y="81.0" />
+    </edge>
+    <edge source="Controller.EstimationController" target="Controller.Controller">
+      <point x="46.799999999999955" y="224.0" />
+      <point x="597.1833333333333" y="972.0" />
+      <point x="421.3416666666667" y="972.0" />
+      <point x="63.17500000000001" y="-124.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.45606060606060606" x="476.0" y="650.0" />
+  <SelectedNodes>
+    <node>Controller.ProductDataController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
